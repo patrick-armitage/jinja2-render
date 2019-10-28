@@ -25,7 +25,7 @@ def render(env, template_name, data_file, extra_filters=None):
 
     data = {}
     for i in data_file:
-        data.update(yaml.load(i))
+        data.update(yaml.load(i, Loader=yaml.Loader))
 
     return template.render(data)
 
