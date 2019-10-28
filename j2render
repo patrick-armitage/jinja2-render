@@ -1,4 +1,4 @@
-#!/Users/souldevadmin/.pyenv/shims/python
+#!/usr/bin/python3
 
 """
 Load variables from YAML-formatted file(s) to render a jinja2 template
